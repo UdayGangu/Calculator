@@ -71,6 +71,8 @@ body{
     font-size: larger;
     padding-left: 10px;
     padding-top: 10px;
+    overflow-y: auto;
+    word-break: break-all;
 }
 
 p{
@@ -81,7 +83,7 @@ p{
 {
     .container{
         width: 60%;
-        height: 50%;
+        height: 60%;
         transform: scale(1.4);
     }
     .button{
