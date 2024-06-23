@@ -77,11 +77,12 @@ p{
     color: black
 }
 
-@media screen and (max-width:400px)
+@media screen and (max-width:480px)
 {
     .container{
         width: 60%;
         height: 50%;
+        transform: scale(1.4);
     }
     .button{
         height: 30px;
@@ -92,7 +93,7 @@ p{
         column-gap:5px;
     }
 }
-@media screen and (min-width:401px)and (max-width:1310px)
+@media screen and (min-width:480px)and (max-width:1310px)
 {
     .container{
         width: 50%;
